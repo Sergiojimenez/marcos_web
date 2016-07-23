@@ -1,11 +1,59 @@
 .m-header {
+	* > :last-child { margin-bottom: 0 !important; margin-right: 0 !important; }
 	&-logo {
-		margin-top: 5%;
-		width: 30%;
+		margin-top: 2%;
+		width: 20%;
 		margin-bottom: 3%;
 	}
 	&-nav {
-		font-size: 1.5rem;
-		color:
+		font-size: 1.2rem;
+		color:white !important;
+		text-transform: uppercase;
+		a {
+			margin-right: 1.5rem;
+		}
+	}
+	&-bags {
+		position: relative;
+		bottom: -100px;
+		width: 70%;
+		margin: 0 auto;
+		.bag{
+			&-product{
+				&-1 {
+					position: relative;
+					bottom: 0px;
+					transition-property: bottom;
+  					transition-duration: 0.2s;
+  					transition-timing-function: linear;
+					&:hover {
+						bottom: 30px;
+					}
+				}
+				&-2 {
+					position: relative;
+					bottom: 0px;
+					transition-property: bottom;
+  					transition-duration: 0.2s;
+  					transition-timing-function: linear;
+					&:hover {
+						bottom: 30px;
+					}
+				}
+				&-3 {
+					position: relative;
+					bottom: 0px;
+					transition-property: bottom;
+  					transition-duration: 0.2s;
+  					transition-timing-function: linear;
+					&:hover {
+						bottom: 30px;
+					}
+				}
+			}
+		}
+	@media(max-width:768px) {
+        	display:none;
+		}
 	}
 }

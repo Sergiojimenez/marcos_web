@@ -727,12 +727,16 @@ hr.small {
 footer {
   padding: 100px 0; }
 
+.m-mar-enterprise {
+  background: red;
+  min-height: 300px; }
+
 .m-mar-card {
   position: relative;
   background: #fbcf42;
   text-align: left;
   overflow: hidden;
-  font-size: 14px;
+  font-size: 1rem;
   border-radius: 3px;
   height: 300px;
   width: 100%;
@@ -747,7 +751,7 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("http://lorempixel.com/image_output/nature-q-c-839-426-8.jpg"); }
+    background-image: url("/img/fachada_marcos.png"); }
   .m-mar-card .photo--right {
     float: right; }
   .m-mar-card .details {
@@ -768,7 +772,7 @@ footer {
     .m-mar-card:hover .details li {
       padding: 0.1em; }
   .m-mar-card .description {
-    padding: 1em;
+    padding: 3rem;
     position: relative;
     float: right;
     height: 100%;
@@ -787,8 +791,10 @@ footer {
       transform: skewX(-5deg); }
     .m-mar-card .description h1 {
       font-size: 2em;
-      padding: 0.5em 0px;
-      font-weight: bold; }
+      font-weight: bold;
+      margin-bottom: 5px; }
+    .m-mar-card .description .subtitle {
+      color: white; }
     .m-mar-card .description .line {
       display: block;
       height: 5em; }
@@ -805,15 +811,7 @@ footer {
       font-weight: 400; }
     .m-mar-card .description p {
       position: relative;
-      padding: 2em 0px 1em 0.5em; }
-      .m-mar-card .description p:after {
-        content: "";
-        background: #75D13B;
-        height: 6px;
-        width: 5em;
-        position: absolute;
-        top: 0.6em;
-        left: 0px; }
+      padding: 0px 0px 1em 0.5em; }
     .m-mar-card .description a {
       color: #75D13B;
       margin-bottom: 1em;
@@ -849,9 +847,57 @@ footer {
       width: 100%; }
       .m-mar-card .description p {
         margin-bottom: 1em; } }
+.m-header * > :last-child {
+  margin-bottom: 0 !important;
+  margin-right: 0 !important; }
 .m-header-logo {
-  margin-top: 5%;
-  width: 30%;
+  margin-top: 2%;
+  width: 20%;
   margin-bottom: 3%; }
 .m-header-nav {
-  font-size: 2rem; }
+  font-size: 1.2rem;
+  color: white !important;
+  text-transform: uppercase; }
+  .m-header-nav a {
+    margin-right: 1.5rem; }
+.m-header-bags {
+  position: relative;
+  bottom: -100px;
+  width: 70%;
+  margin: 0 auto; }
+  .m-header-bags .bag-product-1 {
+    position: relative;
+    bottom: 0px;
+    -webkit-transition-property: bottom;
+    transition-property: bottom;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear; }
+    .m-header-bags .bag-product-1:hover {
+      bottom: 30px; }
+  .m-header-bags .bag-product-2 {
+    position: relative;
+    bottom: 0px;
+    -webkit-transition-property: bottom;
+    transition-property: bottom;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear; }
+    .m-header-bags .bag-product-2:hover {
+      bottom: 30px; }
+  .m-header-bags .bag-product-3 {
+    position: relative;
+    bottom: 0px;
+    -webkit-transition-property: bottom;
+    transition-property: bottom;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear; }
+    .m-header-bags .bag-product-3:hover {
+      bottom: 30px; }
+  @media (max-width: 768px) {
+    .m-header-bags {
+      display: none; } }

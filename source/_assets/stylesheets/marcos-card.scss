@@ -3,7 +3,7 @@
   background: $mar-base_color;
   text-align: left;
   overflow: hidden;
-  font-size: 14px;
+  font-size: 1rem;
   border-radius: 3px;
   height: 300px;
   width: 100%;
@@ -22,7 +22,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('http://lorempixel.com/image_output/nature-q-c-839-426-8.jpg');
+    background-image: url('/img/fachada_marcos.png');
   }
   .photo--right {
     @extend .photo;
@@ -51,7 +51,7 @@
     }
   }
   .description {
-    padding: 1em;
+    padding: 3rem;
     position: relative;
     float: right;
     height: 100%;
@@ -74,8 +74,11 @@
     }
     h1 {
       font-size: 2em;
-      padding: 0.5em 0px;
       font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .subtitle {
+      color: white;
     }
     .line {
       display: block;
@@ -97,16 +100,7 @@
     }
     p {
       position: relative;
-      padding: 2em 0px 1em 0.5em;
-      &:after {
-        content: "";
-        background: #75D13B;
-        height: 6px;
-        width: 5em;
-        position: absolute;
-        top: 0.6em;
-        left: 0px;
-      }
+      padding: 0px 0px 1em 0.5em;
     }
     a {
       color: #75D13B;
