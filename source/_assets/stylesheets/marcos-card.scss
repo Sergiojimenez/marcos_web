@@ -14,6 +14,7 @@
   -webkit-box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3);
   box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3);
+
   .photo {
     position: relative;
     float: left;
@@ -23,6 +24,16 @@
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('/img/fachada_marcos.png');
+  }
+  .photo--map {
+    position: relative;
+    float: left;
+    height: 350px;
+    width: 350px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/img/mapa_castilla.svg');
   }
   .photo--right {
     @extend .photo;
@@ -80,9 +91,12 @@
     .subtitle {
       color: white;
     }
+    .centered {
+      text-align: center;
+    }
     .line {
       display: block;
-      height: 5em;
+      //height: 5em;
     }
     .product_name {
       float: left;
@@ -100,7 +114,6 @@
     }
     p {
       position: relative;
-      padding: 0px 0px 1em 0.5em;
     }
     a {
       color: #75D13B;
@@ -123,6 +136,18 @@
       }
     }
   }
+}
+
+.m-mar-footer {
+  background: $mar-base_color; 
+}
+
+.m-mar-card--maps {
+  @extend .m-mar-card;
+  background: white !important; 
+  height: 100%;
+  padding: 1rem;
+
 }
 
 @media screen and (max-width: 700px) {

@@ -204,6 +204,11 @@ hr.small {
     margin: 0 auto;
 }
 
+.img-full {
+    width: 100% !important;
+    max-width: none !important;
+}
+
 .img-portfolio:hover {
     opacity: 0.8;
 }
@@ -233,5 +238,5 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    padding: 100px 0 0 0;
 }
