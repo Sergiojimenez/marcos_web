@@ -1,16 +1,36 @@
 .m-header {
-	* > :last-child { margin-bottom: 0 !important; margin-right: 0 !important; }
+	* > :last-child { 
+		margin-bottom: 0 !important; 
+		margin-right: 0 !important; 
+	}
+	@media(max-width:990px) {
+    	height:250px;
+	}
+	@media(max-width:560px) {
+		height:280px;
+	}
 	&-logo {
 		margin-top: 2%;
 		width: 20%;
 		margin-bottom: 3%;
+		@media(max-width:560px) {
+			width: 30%;
+    		margin-bottom: 10%;
+		}
 	}
 	&-nav {
 		font-size: 1.2rem;
-		color:white !important;
-		text-transform: uppercase;
 		a {
 			margin-right: 1.5rem;
+			color: #504f4f !important;
+			border: 3px solid #504f4f;
+			padding:10px;
+			cursor: pointer;
+			&:hover {
+				text-decoration: none;
+				background: $mar-base_color;
+				border: 3px solid white;
+			}
 		}
 	}
 	&-bags {
@@ -52,7 +72,7 @@
 				}
 			}
 		}
-	@media(max-width:768px) {
+	@media(max-width:990px) {
         	display:none;
 		}
 	}

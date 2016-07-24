@@ -747,6 +747,8 @@ footer {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3); }
+  .m-mar-card--big {
+    min-height: 450px; }
   .m-mar-card .photo, .m-mar-card--maps .photo, .m-mar-card .photo--right, .m-mar-card--maps .photo--right {
     position: relative;
     float: left;
@@ -757,14 +759,16 @@ footer {
     background-repeat: no-repeat;
     background-image: url("/img/fachada_marcos.png"); }
   .m-mar-card .photo--map, .m-mar-card--maps .photo--map {
-    position: relative;
-    float: left;
-    height: 350px;
-    width: 350px;
+    margin-left: 20px;
+    height: 300px;
+    width: 360px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("/img/mapa_castilla.svg"); }
+    @media screen and (max-width: 990px) {
+      .m-mar-card .photo--map, .m-mar-card--maps .photo--map {
+        margin: 0 auto; } }
   .m-mar-card .photo--right, .m-mar-card--maps .photo--right {
     float: right; }
   .m-mar-card .details, .m-mar-card--maps .details {
@@ -785,12 +789,15 @@ footer {
     .m-mar-card:hover .details li, .m-mar-card--maps:hover .details li {
       padding: 0.1em; }
   .m-mar-card .description, .m-mar-card--maps .description {
-    padding: 3rem;
+    padding: 2rem;
     position: relative;
     float: right;
     height: 100%;
     width: 60%;
-    z-index: 0; }
+    z-index: 0;
+    line-height: 25px; }
+    .m-mar-card .description--maps, .m-mar-card--maps .description--maps {
+      padding: 30px; }
     .m-mar-card .description:before, .m-mar-card--maps .description:before {
       content: "";
       background: #fbcf42;
@@ -842,14 +849,19 @@ footer {
         opacity: 1; }
 
 .m-mar-footer {
-  background: #fbcf42; }
+  background: #fbcf42;
+  padding-top: 0px !important; }
+
+.footer-logo {
+  position: relative;
+  width: 200px;
+  top: 100px;
+  left: 100px; }
 
 .m-mar-card--maps {
-  background: white !important;
-  height: 100%;
-  padding: 1rem; }
+  background: white !important; }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 990px) {
   .m-mar-card, .m-mar-card--maps {
     max-width: 100%;
     height: 400px;
@@ -871,16 +883,32 @@ footer {
 .m-header * > :last-child {
   margin-bottom: 0 !important;
   margin-right: 0 !important; }
+@media (max-width: 990px) {
+  .m-header {
+    height: 250px; } }
+@media (max-width: 560px) {
+  .m-header {
+    height: 280px; } }
 .m-header-logo {
   margin-top: 2%;
   width: 20%;
   margin-bottom: 3%; }
+  @media (max-width: 560px) {
+    .m-header-logo {
+      width: 30%;
+      margin-bottom: 10%; } }
 .m-header-nav {
-  font-size: 1.2rem;
-  color: white !important;
-  text-transform: uppercase; }
+  font-size: 1.2rem; }
   .m-header-nav a {
-    margin-right: 1.5rem; }
+    margin-right: 1.5rem;
+    color: #504f4f !important;
+    border: 3px solid #504f4f;
+    padding: 10px;
+    cursor: pointer; }
+    .m-header-nav a:hover {
+      text-decoration: none;
+      background: #fbcf42;
+      border: 3px solid white; }
 .m-header-bags {
   position: relative;
   bottom: -100px;
@@ -919,6 +947,6 @@ footer {
             transition-timing-function: linear; }
     .m-header-bags .bag-product-3:hover {
       bottom: 30px; }
-  @media (max-width: 768px) {
+  @media (max-width: 990px) {
     .m-header-bags {
       display: none; } }
