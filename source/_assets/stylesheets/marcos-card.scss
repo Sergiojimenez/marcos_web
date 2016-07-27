@@ -193,3 +193,45 @@
     }
   }
 }
+
+.nopadding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.products-left {
+  background: $mar-base_color;
+}
+
+.products-right {
+  background: white;
+}
+
+.products {  
+  &-title {
+    padding: 1rem;
+    font-size: 2rem;
+    background-color:#fff0d8;
+    list-style: none;
+    padding-left: 2rem;
+  }
+  &-img {
+    position: relative;
+    margin: 0 auto;
+    .img-responsive {
+      position: relative;
+      margin: 20px auto 20px auto;
+      width: 100px;
+    }
+  }
+  &-coment {
+    padding: 0.5rem;
+    p {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+
+
+
