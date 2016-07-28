@@ -764,7 +764,7 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/img/fachada_marcos.png"); }
+    background-image: url("img/fachada_marcos.png"); }
   .m-mar-card .photo--map, .m-mar-card--maps .photo--map {
     margin-left: 20px;
     height: 300px;
@@ -772,7 +772,7 @@ footer {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/img/mapa_castilla.svg"); }
+    background-image: url("img/mapa_castilla.svg"); }
     @media screen and (max-width: 990px) {
       .m-mar-card .photo--map, .m-mar-card--maps .photo--map {
         margin: 0 auto; } }
