@@ -1,0 +1,44 @@
+---
+layout: home
+---
+
+%nav.navbar.navbar-products
+  .container
+    .navbar-header
+      %button.navbar-toggle.collapsed{"aria-controls" => "navbar", "aria-expanded" => "false", "data-target" => "#navbar", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{:href => ""}
+        %img{:alt => "Mariano Marcos", :src => "img/logo_marcos.png"}/
+    #navbar.collapse.navbar-collapse
+      %ul.nav.navbar-nav.navbar-right
+        %li.active
+          %a{:href => "/"} Home
+        %li
+          %a{:href => "garbanzos.html"} Garbanzos
+        %li
+          %a{:href => "legumbres.html"} Legumbres
+        %li
+          %a{:href => "alubias.html"} Alubias
+
+.container
+{% for post in site.categories.legumbre %}
+  .row.{{ post.side }}
+    .col-md-5.nopadding.{{ post.bg-class }}
+    .col-md-7.nopadding  
+      %li.products-title {{ post.title }}
+      .col-md-6
+        .products-img
+          <div class="img-responsive">{{ post.img-detail-bag }}</div>
+      .col-md-6
+        .products-img
+          <div class="img-responsive">{{ post.img-detail-bag }}</div>
+      .col-md-12.products-coment
+        %p {{ post.title-coment }} 
+        %p {{ post.coment }}   
+  {% endfor %}
+%footer.row.m-mar-footer
+  %img.img-responsive.footer-logo{:src => "img/logo_marcos.png"}
+  %img.img-responsive.img-full{:src => "img/footer_castilla.svg"} 

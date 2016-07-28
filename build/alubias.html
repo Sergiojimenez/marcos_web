@@ -15,16 +15,83 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   </head>
   <body>
-    <div class='delete-me'>
+    <nav class='navbar navbar-products'>
   <div class='container'>
-    <h1>Proteus</h1>
-    <p>
-      You're all set!
-      <a href="http://github.com/thoughtbot/proteus-jekyll">Let's get started</a>
-      building your prototype.
-    </p>
+    <div class='navbar-header'>
+      <button aria-controls='navbar' aria-expanded='false' class='navbar-toggle collapsed' data-target='#navbar' data-toggle='collapse' type='button'>
+        <span class='sr-only'>Toggle navigation</span>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+      </button>
+      <a class='navbar-brand' href=''>
+        <img alt='Mariano Marcos' src='img/logo_marcos.png'>
+      </a>
+    </div>
+    <div class='collapse navbar-collapse' id='navbar'>
+      <ul class='nav navbar-nav navbar-right'>
+        <li class='active'>
+          <a href='/'>Home</a>
+        </li>
+        <li>
+          <a href='garbanzos.html'>Garbanzos</a>
+        </li>
+        <li>
+          <a href='legumbres.html'>Legumbres</a>
+        </li>
+        <li>
+          <a href='alubias.html'>Alubias</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class='container'>
+  <div class='row products-right'>
+    <div class='col-md-5 nopadding garbanzo-1'></div>
+    <div class='col-md-7 nopadding'>
+      <li class='products-title'>Garbanzos dos</li>
+      <div class='col-md-6'>
+        <div class='products-img'>
+          <div class="img-responsive"><img src='img/muestra_bolsa_detail.png'></div>
+        </div>
+      </div>
+      <div class='col-md-6'>
+        <div class='products-img'>
+          <div class="img-responsive"><img src='img/muestra_bolsa_detail.png'></div>
+        </div>
+      </div>
+      <div class='col-md-12 products-coment'>
+        <p>Este es el título</p>
+        <p>Aquí incluimos lo necesario</p>
+      </div>
+    </div>
+  </div>
+  <div class='row products-left'>
+    <div class='col-md-5 nopadding garbanzo-1'></div>
+    <div class='col-md-7 nopadding'>
+      <li class='products-title'>Garbanzos uno</li>
+      <div class='col-md-6'>
+        <div class='products-img'>
+          <div class="img-responsive"><img src='img/muestra_bolsa_detail.png'></div>
+        </div>
+      </div>
+      <div class='col-md-6'>
+        <div class='products-img'>
+          <div class="img-responsive"><img src='img/muestra_bolsa_detail.png'></div>
+        </div>
+      </div>
+      <div class='col-md-12 products-coment'>
+        <p>Este es el título</p>
+        <p>Este es el uno</p>
+      </div>
+    </div>
   </div>
 </div>
+<footer class='row m-mar-footer'>
+  <img class='img-responsive footer-logo' src='img/logo_marcos.png'>
+  <img class='img-responsive img-full' src='img/footer_castilla.svg'>
+</footer>
 
     <script type="text/javascript" src="assets/application.js"></script>
   </body>
