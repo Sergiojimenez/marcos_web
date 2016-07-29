@@ -723,6 +723,14 @@ hr.small {
 .call-to-action .btn {
   margin: 10px; }
 
+/* Utils */
+.mbtn {
+  margin-bottom: 1rem !important; }
+
+.w100 {
+  width: 100% !important;
+  max-width: none !important; }
+
 /* Map */
 .map {
   height: 500px; }
@@ -760,22 +768,23 @@ footer {
     position: relative;
     float: left;
     height: 100%;
-    width: 40%;
+    width: 50%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("img/fachada_marcos.png"); }
   .m-mar-card .photo--map, .m-mar-card--maps .photo--map {
     margin-left: 20px;
-    height: 300px;
-    width: 360px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 280px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("img/mapa_castilla.svg"); }
     @media screen and (max-width: 990px) {
       .m-mar-card .photo--map, .m-mar-card--maps .photo--map {
-        margin: 0 auto; } }
+        margin: 10px auto; } }
   .m-mar-card .photo--right, .m-mar-card--maps .photo--right {
     float: right; }
   .m-mar-card .details, .m-mar-card--maps .details {
@@ -800,7 +809,7 @@ footer {
     position: relative;
     float: right;
     height: 100%;
-    width: 60%;
+    width: 49%;
     z-index: 0;
     line-height: 25px; }
     .m-mar-card .description--maps, .m-mar-card--maps .description--maps {
@@ -919,13 +928,45 @@ footer {
   .products-coment p {
     margin-bottom: 0px; }
 
-.garbanzo-1 {
+.garbanzo_castellano {
   position: relative;
   height: 320px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url("/img/logo_marcos.png"); }
+  background-image: url("/img/garbanzo_castellano.jpg"); }
+
+.garbanzo_gordo_especial {
+  position: relative;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("/img/garbanzo_gordo_especial.jpg"); }
+
+.garbanzo_lechoso {
+  position: relative;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("/img/garbanzo_lechoso.jpg"); }
+
+.garbanzo_pedrosillano_de_salamanca {
+  position: relative;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("/img/garbanzo_pedrosillano_de_salamanca.jpg"); }
+
+.garbanzo_pedrosillano {
+  position: relative;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("/img/garbanzo_pedrosillano.jpg"); }
 
 .m-header * > :last-child {
   margin-bottom: 0 !important;
@@ -960,7 +1001,7 @@ footer {
   position: relative;
   bottom: -100px;
   width: 70%;
-  margin: 0 auto; }
+  margin: 100px auto 50px auto; }
   .m-header-bags .bag-product-1 {
     position: relative;
     bottom: 0px;
