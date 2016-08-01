@@ -1,5 +1,5 @@
 ---
-title:  "Alubia Cabela"
+title:  "Alubia Canela"
 date:   2016-07-25 17:26:19
 categories: alubia
 layout: default

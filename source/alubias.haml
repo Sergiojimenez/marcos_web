@@ -19,27 +19,34 @@ layout: home
         %li
           %a{:href => "garbanzos.html"} Garbanzos
         %li
-          %a{:href => "legumbres.html"} Legumbres
+          %a{:href => "lentejas.html"} Lentejas
         %li
           %a{:href => "alubias.html"} Alubias
 
 .container
-{% for post in site.categories.garbanzo %}
+{% for post in site.categories.alubia %}
   .row.{{ post.side }}
     .col-md-5.nopadding.{{ post.bg-class }}
     .col-md-7.nopadding  
       %li.products-title {{ post.title }}
       .col-md-6
-        .products-img
-          <div class="img-responsive">{{ post.img-detail-bag }}</div>
+        .col-md-6
+          .products-img
+            <div class="img-responsive">{{ post.img-detail-bag }}</div>
+        .col-md-6
+          .products-img
+            %p {{ post.coment }}
       .col-md-6
-        .products-img
-          <div class="img-responsive">{{ post.img-detail-bag }}</div>
-      .col-md-12.products-coment
-        %p {{ post.title-coment }} 
-        %p {{ post.coment }}   
+        .col-md-6
+          .products-img
+            <div class="img-responsive">{{ post.img-detail-bag }}</div>
+        .col-md-6
+          .products-img
+            %p {{ post.coment }}
   {% endfor %}
 
-%footer.row.m-mar-footer
+%footer.m-mar-footer
+  %div.footer-addres
+    %p.clearfix c/ Quiñones | 37797 Calzada de Valdunciel | Salamanca
   %img.img-responsive.footer-logo{:src => "img/logo_marcos.png"}
   %img.img-responsive.img-full{:src => "img/footer_castilla.svg"} 

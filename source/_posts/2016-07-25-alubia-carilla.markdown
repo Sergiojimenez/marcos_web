@@ -7,7 +7,7 @@ img: <img src='img/logo_marcos.png'>
 img-detail-bag: <img src='img/muestra_bolsa_detail.png'>
 coment: Este es el uno
 title-coment: Este es el título
-bg-class: legumbre-1 
+bg-class: alubia-carilla
 side: products-left
 ---
 

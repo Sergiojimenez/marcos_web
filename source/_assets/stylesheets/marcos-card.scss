@@ -229,11 +229,9 @@
   }
   &-img {
     position: relative;
-    margin: 0 auto;
+    margin:20px auto 0px auto ;
     .img-responsive {
       position: relative;
-      margin: 20px auto 20px auto;
-      width: 100px;
     }
   }
   &-coment {

@@ -254,3 +254,24 @@ hr.small {
 footer {
     padding: 100px 0 0 0;
 }
+
+.footer-addres {
+  float: right;
+  padding: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: flex-row;
+      -ms-flex-direction: flex-row;
+          flex-direction: flex-row;
+  -webkit-flex-wrap: nowrap span;
+      -ms-flex-wrap: nowrap span;
+          flex-wrap: nowrap span;
+  flex-wrap-float: left;
+}
+
+
+
