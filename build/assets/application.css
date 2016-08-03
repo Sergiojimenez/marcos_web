@@ -756,6 +756,9 @@ footer {
   flex-wrap: nowrap span;
   flex-wrap-float: left; }
 
+.center-img {
+  margin-left: 15px; }
+
 .m-mar-enterprise {
   background: red;
   min-height: 300px; }
