@@ -26,6 +26,7 @@
 			border: 3px solid #504f4f;
 			padding:10px;
 			cursor: pointer;
+			background: white;
 			&:hover {
 				text-decoration: none;
 				background: $mar-base_color;
@@ -35,9 +36,9 @@
 	}
 	&-bags {
 		position: relative;
-		bottom: -100px;
+		bottom: -170px;
 		width: 70%;
-		margin: 100px auto 50px auto;
+		margin: 20px auto 50px auto;
 		.bag{
 			&-product{
 				&-1 {

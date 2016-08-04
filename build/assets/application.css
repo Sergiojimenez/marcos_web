@@ -921,10 +921,24 @@ footer {
   padding-right: 0 !important; }
 
 .products-left {
-  background: #fbcf42; }
+  background: #fbcf42;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+.products-left:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 .products-right {
-  background: white; }
+  background: white;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+.products-right:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 .products-title {
   padding: 1rem;
@@ -1206,16 +1220,17 @@ footer {
     color: #504f4f !important;
     border: 3px solid #504f4f;
     padding: 10px;
-    cursor: pointer; }
+    cursor: pointer;
+    background: white; }
     .m-header-nav a:hover {
       text-decoration: none;
       background: #fbcf42;
       border: 3px solid white; }
 .m-header-bags {
   position: relative;
-  bottom: -100px;
+  bottom: -170px;
   width: 70%;
-  margin: 100px auto 50px auto; }
+  margin: 20px auto 50px auto; }
   .m-header-bags .bag-product-1 {
     position: relative;
     bottom: 0px;
