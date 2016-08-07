@@ -27,6 +27,9 @@
 			padding:10px;
 			cursor: pointer;
 			background: white;
+				@media(max-width:500px) {
+				margin-right: 0px;
+			}
 			&:hover {
 				text-decoration: none;
 				background: $mar-base_color;

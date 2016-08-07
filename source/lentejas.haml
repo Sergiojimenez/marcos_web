@@ -24,28 +24,28 @@ layout: home
           %a{:href => "alubias.html"} Alubias
 
 .container
-{% for post in site.categories.lentejas %}
+{% for post in site.categories.lenteja %}
   .row.{{ post.side }}
     .col-md-5.nopadding.{{ post.bg-class }}
     .col-md-7.nopadding  
       %li.products-title {{ post.title }}
-      .col-md-6
-        .col-md-6
+      .col-md-6.clearfix
+        .col-md-6.col-xs-6
           .products-img
             <div class="img-responsive">{{ post.img-detail-bag }}</div>
-        .col-md-6
+        .col-md-6.col-xs-6
           .products-img
-            %p {{ post.coment }}
-      .col-md-6
-        .col-md-6
+            %p {{ post.title-coment }}
+      .col-md-6.clearfix
+        .col-md-6.col-xs-6.mbtn
           .products-img
-            <div class="img-responsive">{{ post.img-detail-bag }}</div>
-        .col-md-6
-          .products-img
-            %p {{ post.coment }}  
+            <div class="center-img img-responsive">{{ post.img }}</div>
+        .col-md-6.col-xs-6
+          .products-img.mbtn
+            %p {{ post.title-granel }}  
   {% endfor %}
 %footer.m-mar-footer
   %div.footer-addres
-    %p.clearfix c/ Quiñones | 37797 Calzada de Valdunciel | Salamanca
+    %p.clearfix  C/. Valderas, 30, Polig. Ind. Los Villares | 37184 VILLARES DE LA REINA (Salamanca)
   %img.img-responsive.footer-logo{:src => "img/logo_marcos.png"}
   %img.img-responsive.img-full{:src => "img/footer_castilla.svg"} 
