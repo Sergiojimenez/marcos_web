@@ -7,8 +7,8 @@ img: <img src='img/alubia_small_tela.png'>
 img-detail-bag: <img src='img/garbanzo_small.png'>
 coment: Este es el uno
 title-coment: Garbanzo castellano
-title-plastico: Envasado en paquetes de celofán. <b>1Kg y 1/2Kg</b>
-title-granel: Envasado en paquetes de tela. <b>1Kg</b> <p><b>A GRANEL</b><br> Envasado en sacos de <b>5Kg, 10Kg y 25Kg</b> 
+title-plastico: Envasado en paquetes. <b>1Kg y 1/2Kg</b>
+title-granel: Envasado en paquetes de tela. <b>1Kg</b> <p><b>A GRANEL</b><br> Envasado en sacos de <b>10Kg, 25Kg y bolsa de 5Kg</b> 
 bg-class: garbanzo_castellano 
 side: products-left
 ---
