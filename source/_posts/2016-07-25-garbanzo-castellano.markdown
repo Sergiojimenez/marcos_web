@@ -4,7 +4,7 @@ date:   2016-07-25 17:26:19
 categories: garbanzo
 layout: default
 img: <img src='img/alubia_small_tela.png'>
-img-detail-bag: <img src='img/garbanzo_small.png'>
+img-detail-bag: <img src='img/Garbanzo-Castellano.png'>
 coment: Este es el uno
 title-coment: Garbanzo castellano
 title-plastico: Envasado en paquetes. <b>1Kg y 1/2Kg</b>
