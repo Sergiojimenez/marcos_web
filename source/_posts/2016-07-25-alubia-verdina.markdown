@@ -4,7 +4,7 @@ date:   2016-07-25 17:26:19
 categories: alubia
 layout: default
 img: <img src='img/alubia_small_tela.png'>
-img-detail-bag: <img src='img/alubia_small.png'>
+img-detail-bag: <img src='img/Alubia-Verdina.png'>
 coment: Este es el uno
 bg-class: alubia-verdina 
 title-coment: Envasado en paquetes. <b>1Kg y 1/2Kg</b>
