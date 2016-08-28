@@ -12,28 +12,26 @@ layout: home
     %li.sidebar-brand
       %a{:href => "#top", :onclick => "$(\"#menu-close\").click();"} Legumbres Marcos
     %li
+      %a{:href => "lentejas.html", :onclick => "$(\"#menu-close\").click();"} Lentejas
+    %li
       %a{:href => "garbanzos.html", :onclick => "$(\"#menu-close\").click();"} Garbanzos
     %li
-      %a{:href => "legumbres.html", :onclick => "$(\"#menu-close\").click();"} Lentejas
-    %li
       %a{:href => "alubias.html", :onclick => "$(\"#menu-close\").click();"} Alubias
-    %li
-      %a{:href => "#contact", :onclick => "$(\"#menu-close\").click();"} Contacto
 / Header
 %header#top.header.m-header
   .text-vertical-center
     %img.m-header-logo.img-portfolio.img-responsive{:src => "img/logo_marcos.png"}
     %nav.m-header-nav
-      %a{:href => "garbanzos.html"} Garbanzos
       %a{:href => "lentejas.html"} Lentejas
+      %a{:href => "garbanzos.html"} Garbanzos
       %a{:href => "alubias.html"} Alubias
   .row.m-header-bags
     .col-md-4.bag-product-1
-      %a.pointer{:href => "garbanzos.html"}    
-        %img{:src => "img/garbanzos_home.png"}
-    .col-md-4.bag-product-2 
       %a.pointer{:href => "lentejas.html"}   
         %img{:src => "img/lentejas_home.png"} 
+    .col-md-4.bag-product-2 
+      %a.pointer{:href => "garbanzos.html"}    
+        %img{:src => "img/garbanzos_home.png"}
     .col-md-4.bag-product-3
       %a.pointer{:href => "alubias.html"}    
         %img{:src => "img/alubias_home.png"}
