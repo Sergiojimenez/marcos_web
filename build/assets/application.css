@@ -783,8 +783,8 @@ footer {
   .m-mar-card .photo, .m-mar-card--maps .photo, .m-mar-card .photo--right, .m-mar-card--maps .photo--right {
     position: relative;
     float: left;
-    height: 100%;
-    width: 50%;
+    height: 450px;
+    width: 55%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -826,7 +826,7 @@ footer {
     position: relative;
     float: right;
     height: 100%;
-    width: 49%;
+    width: 45%;
     z-index: 0;
     line-height: 25px; }
     .m-mar-card .description--maps, .m-mar-card--maps .description--maps {
@@ -905,7 +905,7 @@ footer {
     height: auto; }
     .m-mar-card .photo, .m-mar-card--maps .photo, .m-mar-card .photo--right, .m-mar-card--maps .photo--right {
       float: none;
-      height: 400px;
+      height: 325px;
       width: 100%; }
     .m-mar-card:hover .photo, .m-mar-card--maps:hover .photo, .m-mar-card:hover .photo--right, .m-mar-card--maps:hover .photo--right {
       -webkit-transform: none;
