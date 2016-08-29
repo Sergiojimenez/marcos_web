@@ -869,20 +869,7 @@ footer {
     .m-mar-card .description p, .m-mar-card--maps .description p {
       position: relative; }
     .m-mar-card .description a, .m-mar-card--maps .description a {
-      color: #75D13B;
-      margin-bottom: 1em;
-      position: absolute;
-      right: 1em;
-      bottom: 0em; }
-      .m-mar-card .description a:after, .m-mar-card--maps .description a:after {
-        content: ">";
-        margin-left: -10px;
-        opacity: 0;
-        -webkit-transition: 0.5s;
-        transition: 0.5s; }
-      .m-mar-card .description a:hover:after, .m-mar-card--maps .description a:hover:after {
-        margin-left: 10px;
-        opacity: 1; }
+      color: white; }
 
 .m-mar-footer {
   background: #fbcf42;
