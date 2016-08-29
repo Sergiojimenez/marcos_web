@@ -9,7 +9,7 @@ coment: Este es el uno
 title-coment: Envasado en paquetes. <b>1Kg y 1/2Kg</b>
 title-granel: Envasado en paquetes de tela. <b>1Kg</b> <p><b>A GRANEL</b><br> Envasado en sacos de <b>10Kg, 25Kg y bolsa de 5Kg</b> 
 bg-class: lenteja-castellana 
-side: products-right
+side: products-left
 ---
 
 Hola como estas
