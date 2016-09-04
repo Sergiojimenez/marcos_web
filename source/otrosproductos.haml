@@ -28,23 +28,16 @@ layout: home
 .container
 {% for post in site.categories.otrosproductos %}
   .row.{{ post.side }}
-    .col-md-5.nopadding.{{ post.bg-class }}
-    .col-md-7.nopadding  
+    .col-md-7.nopadding.{{ post.bg-class }}
+    .col-md-5.nopadding  
       %li.products-title {{ post.title }}
-      .col-md-6.clearfix
+      .col-md-12.clearfix
         .col-md-10.col-xs-10
           .products-img
-            %p{{ post.title-coment }}
+            %p {{ post.title-coment }}
         .col-md-2.col-xs-2
           .products-img
             %p
-      .col-md-6.clearfix
-        .col-md-10.col-xs-10.mbtn
-          .products-img
-            %p{{ post.title-granel }}  
-        .col-md-2.col-xs-2
-          .products-img.mbtn
-            %p 
   {% endfor %}
 %footer.m-mar-footer
   %div.footer-addres

@@ -1217,6 +1217,22 @@ footer {
   background-size: cover;
   background-image: url("img/lenteja-verdina.jpg"); }
 
+.quinoa {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/quinoa.jpg"); }
+
+.soja {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/soja.jpg"); }
+
 @media (max-width: 990px) {
   .m-header {
     height: 250px; } }
