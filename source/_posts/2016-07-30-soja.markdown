@@ -6,7 +6,7 @@ layout: default
 coment: Este es el uno
 title-coment: Envasado en paquetes. <b>500gr, 1Kg, 5Kg, 10Kg y 25Kg</b>
 bg-class: soja 
-side: products-left
+side: products-right
 ---
 
 Hola como estas

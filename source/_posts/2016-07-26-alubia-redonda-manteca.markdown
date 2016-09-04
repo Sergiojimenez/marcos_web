@@ -1,5 +1,5 @@
 ---
-title:  "Alubia REDONDO MANTECA"
+title:  "Alubia REDONDA MANTECA"
 date:   2016-07-26 17:26:19
 categories: alubia
 layout: default
