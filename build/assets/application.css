@@ -367,10 +367,10 @@ button {
   -o-appearance: none;
   appearance: none;
   -webkit-font-smoothing: antialiased;
-  background-color: #477dca;
+  background-color: #EA0002;
   border-radius: 3px;
   border: none;
-  color: #fff;
+  color: white;
   cursor: pointer;
   display: inline-block;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
@@ -388,7 +388,7 @@ button {
   button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
   button:hover,
   button:focus {
-    background-color: #2c5999;
+    background-color: #9e0001;
     color: #fff; }
   button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled,
   button:disabled {
@@ -438,8 +438,8 @@ textarea {
   input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus,
   select[multiple=multiple]:focus,
   textarea:focus {
-    border-color: #477dca;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
+    border-color: #EA0002;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(209, 0, 2, 0.7);
     outline: none; }
 
 textarea {
@@ -528,12 +528,12 @@ p {
   margin: 0 0 0.75em; }
 
 a {
-  color: #477dca;
+  color: #EA0002;
   text-decoration: none;
   -webkit-transition: color 0.1s linear;
   transition: color 0.1s linear; }
   a:active, a:focus, a:hover {
-    color: #2c5999; }
+    color: #9e0001; }
   a:active, a:focus {
     outline: none; }
 
@@ -560,10 +560,12 @@ body {
   width: 100%;
   height: 100%;
   font-family: 'Josefin Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 18px; }
+  font-size: 18px !important; }
+  html p,
+  body p {
+    font-size: 18px !important; }
 
 .text-vertical-center {
-  display: table-cell;
   text-align: center;
   vertical-align: middle; }
 
@@ -671,7 +673,6 @@ hr.small {
   display: table;
   position: relative;
   width: 100%;
-  height: 100%;
   background: url(../img/bg.jpg) no-repeat center center scroll;
   background-size: cover;
   -o-background-size: cover; }
@@ -707,6 +708,10 @@ hr.small {
 .img-portfolio {
   margin: 0 auto; }
 
+.img-full {
+  width: 100% !important;
+  max-width: none !important; }
+
 .img-portfolio:hover {
   opacity: 0.8; }
 
@@ -717,6 +722,14 @@ hr.small {
 .call-to-action .btn {
   margin: 10px; }
 
+/* Utils */
+.mbtn {
+  margin-bottom: 1rem !important; }
+
+.w100 {
+  width: 100% !important;
+  max-width: none !important; }
+
 /* Map */
 .map {
   height: 500px; }
@@ -726,32 +739,72 @@ hr.small {
     height: 75%; } }
 /* Footer */
 footer {
-  padding: 100px 0; }
+  padding: 100px 0 0 0; }
 
-.m-mar-card {
+.footer-addres {
+  float: right;
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: flex-row;
+  flex-direction: flex-row;
+  -ms-flex-wrap: nowrap span;
+  flex-wrap: nowrap span;
+  flex-wrap-float: left; }
+
+.center-img {
+  margin-left: 15px; }
+
+.m-mar-enterprise {
+  background: red;
+  min-height: 300px; }
+
+.m-mar-card, .m-mar-card--maps {
   position: relative;
   background: #fbcf42;
   text-align: left;
   overflow: hidden;
-  font-size: 14px;
+  font-size: 1rem;
   border-radius: 3px;
-  height: 300px;
+  height: 410px;
   width: 100%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3); }
-  .m-mar-card .photo, .m-mar-card .photo--right {
+  .m-mar-card--big {
+    min-height: 450px; }
+  .m-mar-card .summary, .m-mar-card--maps .summary {
+    font-size: 18px; }
+  .m-mar-card .pointer, .m-mar-card--maps .pointer {
+    cursor: pointer; }
+  .m-mar-card .photo, .m-mar-card--maps .photo, .m-mar-card .photo--right, .m-mar-card--maps .photo--right {
     position: relative;
     float: left;
-    height: 100%;
-    width: 40%;
+    height: 450px;
+    width: 55%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("http://lorempixel.com/image_output/nature-q-c-839-426-8.jpg"); }
-  .m-mar-card .photo--right {
-    float: right; }
-  .m-mar-card .details {
+    background-image: url("img/fachada_marcos.png"); }
+  .m-mar-card .photo--map, .m-mar-card--maps .photo--map {
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    height: 280px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("img/mapa_castilla.svg"); }
+    @media screen and (max-width: 990px) {
+      .m-mar-card .photo--map, .m-mar-card--maps .photo--map {
+        margin: 10px auto; } }
+  .m-mar-card .photo--right, .m-mar-card--maps .photo--right {
+    float: right;
+    background-image: url("img/premium_marcos.png"); }
+  .m-mar-card .details, .m-mar-card--maps .details {
     -webkit-transition: 0.5s;
     transition: 0.5s;
     background: rgba(0, 0, 0, 0.6);
@@ -764,18 +817,24 @@ footer {
     top: 0px;
     left: -100%;
     width: 40%; }
-  .m-mar-card:hover .details {
+  .m-mar-card:hover .details, .m-mar-card--maps:hover .details {
     left: 0px; }
-    .m-mar-card:hover .details li {
+    .m-mar-card:hover .details li, .m-mar-card--maps:hover .details li {
       padding: 0.1em; }
-  .m-mar-card .description {
-    padding: 1em;
+  .m-mar-card .description, .m-mar-card--maps .description {
+    padding: 2rem;
     position: relative;
     float: right;
     height: 100%;
-    width: 60%;
-    z-index: 0; }
-    .m-mar-card .description:before {
+    width: 45%;
+    z-index: 0;
+    line-height: 25px; }
+    .m-mar-card .description--maps, .m-mar-card--maps .description--maps {
+      padding: 30px; }
+      .m-mar-card .description--maps .subtitle, .m-mar-card--maps .description--maps .subtitle {
+        font-size: 2rem;
+        margin-bottom: 0.8rem !important; }
+    .m-mar-card .description:before, .m-mar-card--maps .description:before {
       content: "";
       background: #fbcf42;
       width: 100%;
@@ -786,67 +845,490 @@ footer {
       bottom: 0;
       -webkit-transform: skewX(-5deg);
       transform: skewX(-5deg); }
-    .m-mar-card .description h1 {
+    .m-mar-card .description h1, .m-mar-card--maps .description h1 {
       font-size: 2em;
-      padding: 0.5em 0px;
-      font-weight: bold; }
-    .m-mar-card .description .line {
-      display: block;
-      height: 5em; }
-    .m-mar-card .description .product_name {
+      font-weight: bold;
+      margin-bottom: 5px; }
+    .m-mar-card .description .subtitle, .m-mar-card--maps .description .subtitle {
+      color: white; }
+    .m-mar-card .description .centered, .m-mar-card--maps .description .centered {
+      text-align: center; }
+    .m-mar-card .description .line, .m-mar-card--maps .description .line {
+      display: block; }
+    .m-mar-card .description .product_name, .m-mar-card--maps .description .product_name {
       float: left; }
-    .m-mar-card .description .product_price {
+    .m-mar-card .description .product_price, .m-mar-card--maps .description .product_price {
       float: right;
       color: #4cbc32; }
-    .m-mar-card .description h2 {
+    .m-mar-card .description h2, .m-mar-card--maps .description h2 {
       color: #9b9b9b;
       font-weight: lighter;
       text-transform: uppercase;
       font-size: 0.9em;
       font-weight: 400; }
-    .m-mar-card .description p {
-      position: relative;
-      padding: 2em 0px 1em 0.5em; }
-      .m-mar-card .description p:after {
-        content: "";
-        background: #75D13B;
-        height: 6px;
-        width: 5em;
-        position: absolute;
-        top: 0.6em;
-        left: 0px; }
-    .m-mar-card .description a {
-      color: #75D13B;
-      margin-bottom: 1em;
-      position: absolute;
-      right: 1em;
-      bottom: 0em; }
-      .m-mar-card .description a:after {
-        content: ">";
-        margin-left: -10px;
-        opacity: 0;
-        -webkit-transition: 0.5s;
-        transition: 0.5s; }
-      .m-mar-card .description a:hover:after {
-        margin-left: 5px;
-        opacity: 1; }
+    .m-mar-card .description p, .m-mar-card--maps .description p {
+      position: relative; }
+    .m-mar-card .description a, .m-mar-card--maps .description a {
+      color: white; }
 
-@media screen and (max-width: 700px) {
-  .m-mar-card {
+.m-mar-footer {
+  background: #fbcf42;
+  padding-top: 0px !important;
+  margin-top: 2rem; }
+
+.footer-logo {
+  position: relative;
+  width: 200px;
+  top: 100px;
+  left: 100px; }
+
+.m-mar-card--maps {
+  background: white !important; }
+
+@media screen and (max-width: 990px) {
+  .m-mar-card, .m-mar-card--maps {
     max-width: 100%;
     height: 400px;
     height: auto; }
-    .m-mar-card .photo, .m-mar-card .photo--right {
+    .m-mar-card .photo, .m-mar-card--maps .photo, .m-mar-card .photo--right, .m-mar-card--maps .photo--right {
       float: none;
-      height: 400px;
+      height: 325px;
       width: 100%; }
-    .m-mar-card:hover .photo, .m-mar-card:hover .photo--right {
+    .m-mar-card:hover .photo, .m-mar-card--maps:hover .photo, .m-mar-card:hover .photo--right, .m-mar-card--maps:hover .photo--right {
       -webkit-transform: none;
       transform: none; }
-    .m-mar-card:hover .details {
+    .m-mar-card:hover .details, .m-mar-card--maps:hover .details {
       left: -100%; }
-    .m-mar-card .description {
+    .m-mar-card .description, .m-mar-card--maps .description {
       float: inherit;
       width: 100%; }
-      .m-mar-card .description p {
+      .m-mar-card .description p, .m-mar-card--maps .description p {
         margin-bottom: 1em; } }
+.nopadding {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.products-left {
+  background: #fbcf42;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+.products-left:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+.products-right {
+  background: white;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+.products-right:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+.products-title {
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: #fff0d8;
+  list-style: none;
+  padding-left: 2rem;
+  line-height: 32px; }
+.products-img {
+  position: relative;
+  margin: 20px auto 0px auto; }
+  .products-img .img-responsive {
+    position: relative; }
+.products-coment {
+  padding: 0.5rem; }
+  .products-coment p {
+    margin-bottom: 0px; }
+
+.garbanzo_castellano {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/garbanzo_castellano.jpg"); }
+
+.garbanzo_gordo_especial {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/garbanzo_gordo_especial.jpg"); }
+
+.garbanzo_lechoso {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/garbanzo_lechoso.jpg"); }
+
+.garbanzo_pedrosillano_de_salamanca {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/garbanzo_pedrosillano_de_salamanca.jpg"); }
+
+.garbanzo_pedrosillano {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/garbanzo_pedrosillano.jpg"); }
+
+.alubia-arrocina {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-arrocina.jpg"); }
+
+.alubia-canela {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-canela.jpg"); }
+
+.alubia-caparron-redondo {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-caparron-redondo.jpg"); }
+
+.alubia-caparron {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-caparron.jpg"); }
+
+.alubia-carilla {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-carilla.jpg"); }
+
+.alubia-de-la-virgen {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-de-la-virgen.jpg"); }
+
+.alubia-fabada {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-fabada.jpg"); }
+
+.alubia-ganchet {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-ganchet.jpg"); }
+
+.alubia-judion-granja {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-judion-granja.jpg"); }
+
+.alubia-larga {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-larga.jpg"); }
+
+.alubia-morada-larga {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-morada-larga.jpg"); }
+
+.alubia-negra-tolosa {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-negra-tolosa.jpg"); }
+
+.alubia-negrita {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-negrita.jpg"); }
+
+.alubia-ochavada-de-salamanca {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-ochavada-de-salamanca.jpg"); }
+
+.alubia-palmena-redonda {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-palmena-redonda.jpg"); }
+
+.alubia-pinta-larga-machotes {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-pinta-larga-machotes.jpg"); }
+
+.alubia-pinta {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-pinta.jpg"); }
+
+.alubia-plancheta-de-leon {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-plancheta-de-leon.jpg"); }
+
+.alubia-redonda-manteca {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-redonda-manteca.jpg"); }
+
+.alubia-plancheta-de-leon {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-plancheta-de-leon.jpg"); }
+
+.alubia-plancheta {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-plancheta.jpg"); }
+
+.alubia-rinon-de-leon {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-rinon-de-leon.jpg"); }
+
+.alubia-rinon {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-rinon.jpg"); }
+
+.alubia-roja-redonda {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-roja-redonda.jpg"); }
+
+.alubia-verdina {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/alubia-verdina.jpg"); }
+
+.lenteja-beluga {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/lenteja-beluga.jpg"); }
+
+.lenteja-castellana {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/lenteja-castellana-de-salamanca.jpg"); }
+
+.lenteja-pardina {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/lenteja-pardina.jpg"); }
+
+.lenteja-verdina {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/lenteja-verdina.jpg"); }
+
+.quinoa {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/quinoa.jpg"); }
+
+.soja {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/soja.jpg"); }
+
+@media (max-width: 990px) {
+  .m-header {
+    height: 250px; } }
+@media (max-width: 560px) {
+  .m-header {
+    height: 280px; } }
+.m-header-logo {
+  margin-top: 2%;
+  width: 20%;
+  margin-bottom: 3%; }
+  @media (max-width: 560px) {
+    .m-header-logo {
+      width: 30%;
+      margin-bottom: 10%; } }
+.m-header-nav {
+  font-size: 1.2rem; }
+  .m-header-nav a {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    color: #504f4f !important;
+    border: 3px solid #504f4f;
+    padding: 15px;
+    cursor: pointer;
+    background: white;
+    margin-bottom: 5px; }
+    @media (max-width: 760px) {
+      .m-header-nav a {
+        padding: 5px; } }
+    .m-header-nav a:hover {
+      text-decoration: none;
+      background: #fbcf42;
+      border: 3px solid white; }
+  @media (max-width: 620px) {
+    .m-header-nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding-bottom: 20px; } }
+.m-header-bags {
+  position: relative;
+  bottom: -110px;
+  width: 70%;
+  margin: 20px auto 50px auto; }
+  .m-header-bags .bag-product-1 {
+    position: relative;
+    bottom: 0px;
+    -webkit-transition-property: bottom;
+    transition-property: bottom;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear; }
+    .m-header-bags .bag-product-1:hover {
+      bottom: 30px; }
+  .m-header-bags .bag-product-2 {
+    position: relative;
+    bottom: 0px;
+    -webkit-transition-property: bottom;
+    transition-property: bottom;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear; }
+    .m-header-bags .bag-product-2:hover {
+      bottom: 30px; }
+  .m-header-bags .bag-product-3 {
+    position: relative;
+    bottom: 0px;
+    -webkit-transition-property: bottom;
+    transition-property: bottom;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear; }
+    .m-header-bags .bag-product-3:hover {
+      bottom: 30px; }
+  @media (max-width: 990px) {
+    .m-header-bags {
+      display: none; } }
+
+.navbar-brand {
+  padding: 5px 5px !important; }
+
+.navbar-brand > img {
+  max-height: 100%;
+  height: 100%;
+  width: auto;
+  margin: 0 auto; }
+
+.navbar-products {
+  background-color: #fbcf42;
+  border-color: #fbcf42; }
+  .navbar-products a {
+    color: #504f4f !important;
+    font-size: 1.2rem; }

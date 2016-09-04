@@ -11,11 +11,14 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Josefin Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 18px !important;
+    p {
+      font-size: 18px !important;
+    }
 }
 
 .text-vertical-center {
-    display: table-cell;
+    //display: table-cell;
     text-align: center;
     vertical-align: middle;
 }
@@ -152,7 +155,6 @@ hr.small {
     display: table;
     position: relative;
     width: 100%;
-    height: 100%;
     background: url(../img/bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -204,6 +206,11 @@ hr.small {
     margin: 0 auto;
 }
 
+.img-full {
+    width: 100% !important;
+    max-width: none !important;
+}
+
 .img-portfolio:hover {
     opacity: 0.8;
 }
@@ -216,6 +223,17 @@ hr.small {
 
 .call-to-action .btn {
     margin: 10px;
+}
+
+/* Utils */
+
+.mbtn {
+    margin-bottom: 1rem !important;
+}
+
+.w100 {
+    width: 100% !important;
+    max-width: none !important;
 }
 
 /* Map */
@@ -233,5 +251,30 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    padding: 100px 0 0 0;
 }
+
+.footer-addres {
+  float: right;
+  padding: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: flex-row;
+      -ms-flex-direction: flex-row;
+          flex-direction: flex-row;
+  -webkit-flex-wrap: nowrap span;
+      -ms-flex-wrap: nowrap span;
+          flex-wrap: nowrap span;
+  flex-wrap-float: left;
+}
+
+.center-img {
+    margin-left: 15px;
+}
+
+
+

@@ -1,0 +1,46 @@
+---
+layout: home
+---
+
+%nav.navbar.navbar-products
+  .container
+    .navbar-header
+      %button.navbar-toggle.collapsed{"aria-controls" => "navbar", "aria-expanded" => "false", "data-target" => "#navbar", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{:href => "/"}
+        %img{:alt => "Mariano Marcos", :src => "img/logo_marcos.png"}/
+    #navbar.collapse.navbar-collapse
+      %ul.nav.navbar-nav.navbar-right
+        %li.active
+          %a{:href => "/"} Home
+        %li
+          %a{:href => "lentejas.html"} Lentejas
+        %li
+          %a{:href => "garbanzos.html"} Garbanzos
+        %li
+          %a{:href => "alubias.html"} Alubias
+        %li
+          %a{:href => "otrosproductos.html"} Otros productos          
+
+.container
+{% for post in site.categories.otrosproductos %}
+  .row.{{ post.side }}
+    .col-md-7.nopadding.{{ post.bg-class }}
+    .col-md-5.nopadding  
+      %li.products-title {{ post.title }}
+      .col-md-12.clearfix
+        .col-md-10.col-xs-10
+          .products-img
+            %p {{ post.title-coment }}
+        .col-md-2.col-xs-2
+          .products-img
+            %p
+  {% endfor %}
+%footer.m-mar-footer
+  %div.footer-addres
+    %p.clearfix  C/. Valderas, 30, Polig. Ind. Los Villares | 37184 VILLARES DE LA REINA (Salamanca)
+  %img.img-responsive.footer-logo{:src => "img/logo_marcos.png"}
+  %img.img-responsive.img-full{:src => "img/footer_castilla.svg"} 

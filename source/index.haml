@@ -10,158 +10,71 @@ layout: home
     %a#menu-close.btn.btn-light.btn-lg.pull-right.toggle{:href => "#"}
       %i.fa.fa-times
     %li.sidebar-brand
-      %a{:href => "#top", :onclick => "$(\"#menu-close\").click();"} Start Bootstrap
+      %a{:href => "#top", :onclick => "$(\"#menu-close\").click();"} Legumbres Marcos
     %li
-      %a{:href => "#top", :onclick => "$(\"#menu-close\").click();"} Home
+      %a{:href => "lentejas.html", :onclick => "$(\"#menu-close\").click();"} Lentejas
     %li
-      %a{:href => "#about", :onclick => "$(\"#menu-close\").click();"} About
+      %a{:href => "garbanzos.html", :onclick => "$(\"#menu-close\").click();"} Garbanzos
     %li
-      %a{:href => "#services", :onclick => "$(\"#menu-close\").click();"} Services
+      %a{:href => "alubias.html", :onclick => "$(\"#menu-close\").click();"} Alubias
     %li
-      %a{:href => "#portfolio", :onclick => "$(\"#menu-close\").click();"} Portfolio
-    %li
-      %a{:href => "#contact", :onclick => "$(\"#menu-close\").click();"} Contact
+      %a{:href => "otrosproductos.html", :onclick => "$(\"#menu-close\").click();"} Otros productos  
 / Header
-%header#top.header
+%header#top.header.m-header
   .text-vertical-center
-    %h1 Start Bootstrap
-    %h3 Free Bootstrap Themes &amp; Templates
-    %br
-      %a.btn.btn-dark.btn-lg{:href => "#about"} Find Out More
-%section.m-mar-card
+    %img.m-header-logo.img-portfolio.img-responsive{:src => "img/logo_marcos.png"}
+    %nav.m-header-nav
+      %a{:href => "lentejas.html"} Lentejas
+      %a{:href => "garbanzos.html"} Garbanzos
+      %a{:href => "alubias.html"} Alubias
+      %a{:href => "otrosproductos.html"} Otros productos
+
+  .row.m-header-bags
+    .col-md-4.bag-product-1
+      %a.pointer{:href => "lentejas.html"}   
+        %img{:src => "img/lentejas_home.png"} 
+    .col-md-4.bag-product-2 
+      %a.pointer{:href => "garbanzos.html"}    
+        %img{:src => "img/garbanzos_home.png"}
+    .col-md-4.bag-product-3
+      %a.pointer{:href => "alubias.html"}    
+        %img{:src => "img/alubias_home.png"}
+%section.m-mar-card.m-mar-card--big
   .photo
   .description
     .line
-      %h1.product_name Card Title
-      %h1.product_price €10
-    %p.summary An country demesne message it. Bachelor domestic extended doubtful as concerns at. Morning prudent removal an letters by. On could my in order never it. Or excited certain sixteen it to parties colonel. Depending conveying direction has led immediate. Law gate her well bed life feet seen rent. On nature or no except it sussex.
-    %a{:href => "//s.codepen.io/ImagineAlex"} Read More
+      %h1.subtitle ¿Quienes somos?
+      //%h1.product_price €10
+    %p.summary Legumbres Mariano Marcos, S.L. es una empresa familiar, situada en la provincia de Salamanca, dedicada a la comercialización de lentejas, garbanzos y alubias originarias en su mayor parte de esta comarca. Esta región salmantina, gracias a su peculiar clima y a la riqueza de sus suelos, proporciona unas excelentes propiedades a estas legumbres: sabor, textura, calidad, ... 
+    %p.summary Con modernas instalaciones y maquinaria, las materias primas son sometidas a un riguroso control de análisis y selección, almacenamiento y posterior envasado para poder cumplir nuestro primordial objetivo: <b>satisfacer al cliente</b>.
+%section
+  %img.w100.centered{:src => "img/bodegon_2.jpg"}   
 %section.m-mar-card
   .photo.photo--right
   .description
     .line
-      %h1.product_name Card Title
-      %h1.product_price €10
-    %p.summary An country demesne message it. Bachelor domestic extended doubtful as concerns at. Morning prudent removal an letters by. On could my in order never it. Or excited certain sixteen it to parties colonel. Depending conveying direction has led immediate. Law gate her well bed life feet seen rent. On nature or no except it sussex.
-    %a{:href => "//s.codepen.io/ImagineAlex"} Read More     
-/ About
-%section#about.about
-  .container
-    .row
-      .col-lg-12.text-center
-        %h2 Stylish Portfolio is the perfect theme for your next project!
-        %p.lead
-          This theme features some wonderful photography courtesy of
-          = succeed "." do
-            %a{:href => "http://join.deathtothestockphoto.com/", :target => "_blank"} Death to the Stock Photo          
-%section#services.services.bg-primary
-  .container
-    .row.text-center
-      .col-lg-10.col-lg-offset-1
-        %h2 Our Services
-        %hr.small
-          .row
-            .col-md-3.col-sm-6
-              .service-item
-                %span.fa-stack.fa-4x
-                  %i.fa.fa-circle.fa-stack-2x
-                  %i.fa.fa-cloud.fa-stack-1x.text-primary
-                %h4
-                  %strong Service Name
-                %p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                %a.btn.btn-light{:href => "#"} Learn More
-            .col-md-3.col-sm-6
-              .service-item
-                %span.fa-stack.fa-4x
-                  %i.fa.fa-circle.fa-stack-2x
-                  %i.fa.fa-compass.fa-stack-1x.text-primary
-                %h4
-                  %strong Service Name
-                %p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                %a.btn.btn-light{:href => "#"} Learn More
-            .col-md-3.col-sm-6
-              .service-item
-                %span.fa-stack.fa-4x
-                  %i.fa.fa-circle.fa-stack-2x
-                  %i.fa.fa-flask.fa-stack-1x.text-primary
-                %h4
-                  %strong Service Name
-                %p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                %a.btn.btn-light{:href => "#"} Learn More
-            .col-md-3.col-sm-6
-              .service-item
-                %span.fa-stack.fa-4x
-                  %i.fa.fa-circle.fa-stack-2x
-                  %i.fa.fa-shield.fa-stack-1x.text-primary
-                %h4
-                  %strong Service Name
-                %p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                %a.btn.btn-light{:href => "#"} Learn More
-%aside.callout
-  .text-vertical-center
-    %h1 Vertically Centered Text
-%section#portfolio.portfolio
-  .container
-    .row
-      .col-lg-10.col-lg-offset-1.text-center
-        %h2 Our Work
-        %hr.small
-          .row
-            .col-md-6
-              .portfolio-item
-                %a{:href => "#"}
-                  %img.img-portfolio.img-responsive{:src => "img/portfolio-1.jpg"}
-            .col-md-6
-              .portfolio-item
-                %a{:href => "#"}
-                  %img.img-portfolio.img-responsive{:src => "img/portfolio-2.jpg"}
-            .col-md-6
-              .portfolio-item
-                %a{:href => "#"}
-                  %img.img-portfolio.img-responsive{:src => "img/portfolio-3.jpg"}
-            .col-md-6
-              .portfolio-item
-                %a{:href => "#"}
-                  %img.img-portfolio.img-responsive{:src => "img/portfolio-4.jpg"}
-          %a.btn.btn-dark{:href => "#"} View More Items
-%aside.call-to-action.bg-primary
-  .container
-    .row
-      .col-lg-12.text-center
-        %h3 The buttons below are impossible to resist.
-        %a.btn.btn-lg.btn-light{:href => "#"} Click Me!
-        %a.btn.btn-lg.btn-dark{:href => "#"} Look at Me!
-%section#contact.map
-  %iframe{:frameborder => "0", :height => "100%", :marginheight => "0", :marginwidth => "0", :scrolling => "no", :src => "https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed", :width => "100%"}
-  %br/
-  %small
-    %a{:href => "https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"}
-%footer
-  .container
-    .row
-      .col-lg-10.col-lg-offset-1.text-center
+      %h1.subtitle.centered.mbtn Conócenos
+    %p.summary.centered.mbtn Gracias a los años de experiencia, a la innovación incorporada y a la tradición conservada, podemos ofrecer a nuestros clientes un amplio abanico de productos con una excelente calidad, ofreciendo un servicio íntegro tanto para pequeños establecimientos como para grandes superficies.
+    .centered
+      %button 
+        %a{:href => "mailto:mm@marianomarcos.com?subject=Consulta"}
+          Contacta con nostros 
+%section.m-mar-card--maps
+
+  .col-md-4.col-xs-12
+    .photo--map
+  .col-md-8.col-xs-12
+    .description--maps
+      .line
+        %h1.subtitle.bold ¿Donde estámos?
         %h4
-          %strong Start Bootstrap
-        %p
-          3481 Melrose Place
-          %br Beverly Hills, CA 90210
-        %ul.list-unstyled
-          %li
-            %i.fa.fa-phone.fa-fw
-            (123) 456-7890
-          %li
-            %i.fa.fa-envelope-o.fa-fw
-            %a{:href => "mailto:name@example.com"} name@example.com
-        %br
-          %ul.list-inline
-            %li
-              %a{:href => "#"}
-                %i.fa.fa-facebook.fa-fw.fa-3x
-            %li
-              %a{:href => "#"}
-                %i.fa.fa-twitter.fa-fw.fa-3x
-            %li
-              %a{:href => "#"}
-                %i.fa.fa-dribbble.fa-fw.fa-3x
-          %hr.small
-            %p.text-muted Copyright &copy; Your Website 2014            
+      %p.summary MARIANO MARCOS GARCIA, S.L.
+      %p.summary           C/. Valderas, 30, Polig. Ind. Los Villares
+      %p.summary           37184 VILLARES DE LA REINA (Salamanca)
+      %p.summary           Telf. 923 310 107       
+%iframe{:allowfullscreen => "", :frameborder => "0", :height => "450", :src => "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.420075375804!2d-5.635334884228543!3d40.994177928240525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3f2f4519a0a397%3A0xeb90b1e8de0b8a27!2sMariano+Marcos+S+L!5e0!3m2!1ses!2ses!4v1471979880624", :style => "border:0", :width => "600"}
+%footer.m-mar-footer
+  %div.footer-addres
+    %p.clearfix  C/. Valderas, 30, Polig. Ind. Los Villares | 37184 VILLARES DE LA REINA (Salamanca)
+  %img.img-responsive.footer-logo{:src => "img/logo_marcos.png"}
+  %img.img-responsive.img-full{:src => "img/footer_castilla.svg"}   
