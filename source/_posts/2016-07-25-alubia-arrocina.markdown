@@ -1,6 +1,6 @@
 ---
-title:  "Alubia Arrocina"
-date:   2016-07-25 17:26:19
+title:  "Alubia ARROCINA"
+date:   2016-07-25 17:26:00
 categories: alubia
 layout: default
 img: <img src='img/alubia_small_tela.png'>

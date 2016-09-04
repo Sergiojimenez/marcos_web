@@ -1,8 +1,4 @@
 .m-header {
-	* > :last-child { 
-		margin-bottom: 0 !important; 
-		margin-right: 0 !important; 
-	}
 	@media(max-width:990px) {
     	height:250px;
 	}
@@ -22,19 +18,26 @@
 		font-size: 1.2rem;
 		a {
 			margin-right: 1.5rem;
+			margin-left: 1.5rem;
 			color: #504f4f !important;
 			border: 3px solid #504f4f;
-			padding:10px;
+			padding:15px;
 			cursor: pointer;
 			background: white;
-				@media(max-width:500px) {
-				margin-right: 0px;
+			margin-bottom: 5px;
+			@media(max-width:760px) {
+				padding:5px;
 			}
 			&:hover {
 				text-decoration: none;
 				background: $mar-base_color;
 				border: 3px solid white;
 			}
+		}
+		@media(max-width:620px) {
+			display: flex;
+	    flex-direction: column;
+	    padding-bottom: 20px;
 		}
 	}
 	&-bags {

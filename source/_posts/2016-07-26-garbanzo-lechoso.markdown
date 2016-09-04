@@ -1,5 +1,5 @@
 ---
-title:  "Garbanzos Lechoso"
+title:  "Garbanzos LECHOSO"
 date:   2016-07-25 17:26:19
 categories: garbanzo
 layout: default

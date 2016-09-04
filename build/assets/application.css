@@ -933,7 +933,8 @@ footer {
   font-size: 2rem;
   background-color: #fff0d8;
   list-style: none;
-  padding-left: 2rem; }
+  padding-left: 2rem;
+  line-height: 32px; }
 .products-img {
   position: relative;
   margin: 20px auto 0px auto; }
@@ -1216,9 +1217,6 @@ footer {
   background-size: cover;
   background-image: url("img/lenteja-verdina.jpg"); }
 
-.m-header * > :last-child {
-  margin-bottom: 0 !important;
-  margin-right: 0 !important; }
 @media (max-width: 990px) {
   .m-header {
     height: 250px; } }
@@ -1237,18 +1235,30 @@ footer {
   font-size: 1.2rem; }
   .m-header-nav a {
     margin-right: 1.5rem;
+    margin-left: 1.5rem;
     color: #504f4f !important;
     border: 3px solid #504f4f;
-    padding: 10px;
+    padding: 15px;
     cursor: pointer;
-    background: white; }
-    @media (max-width: 500px) {
+    background: white;
+    margin-bottom: 5px; }
+    @media (max-width: 760px) {
       .m-header-nav a {
-        margin-right: 0px; } }
+        padding: 5px; } }
     .m-header-nav a:hover {
       text-decoration: none;
       background: #fbcf42;
       border: 3px solid white; }
+  @media (max-width: 620px) {
+    .m-header-nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding-bottom: 20px; } }
 .m-header-bags {
   position: relative;
   bottom: -110px;

@@ -1,6 +1,6 @@
 ---
-title:  "Garbanzos Gordo Especial"
-date:   2016-07-25 17:26:19
+title:  "Garbanzo MUY GORDO (Gordo Especial)"
+date:   2016-07-27 17:26:19
 categories: garbanzo
 layout: default
 img: <img src='img/alubia_small_tela.png'>

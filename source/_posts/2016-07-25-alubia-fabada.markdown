@@ -1,6 +1,6 @@
 ---
-title:  "Alubia Fabada"
-date:   2016-07-25 17:26:19
+title:  "Alubia FABADA"
+date:   2016-07-23 17:26:19
 categories: alubia
 layout: default
 img: <img src='img/alubia_small_tela.png'>

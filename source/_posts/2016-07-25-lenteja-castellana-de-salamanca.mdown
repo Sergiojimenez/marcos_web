@@ -1,6 +1,6 @@
 ---
-title:  "Lenteja Castellana de Salamanca"
-date:   2016-07-25 17:26:19
+title:  "Lenteja CASTELLANA de Salamanca"
+date:   2016-07-30 17:26:19
 categories: lenteja
 layout: default
 img: <img src='img/alubia_small_tela.png'>

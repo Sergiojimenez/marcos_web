@@ -1,6 +1,6 @@
 ---
-title:  "Garbanzos Pedrosillano de Salamanca"
-date:   2016-07-25 17:26:19
+title:  "Garbanzos PEDROSILLANO de Salamanca"
+date:   2016-07-30 17:26:19
 categories: garbanzo
 layout: default
 img: <img src='img/alubia_small_tela.png'>
