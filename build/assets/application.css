@@ -1250,22 +1250,19 @@ footer {
 .m-header-nav {
   font-size: 1.2rem; }
   .m-header-nav a {
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     color: #504f4f !important;
     border: 3px solid #504f4f;
     padding: 15px;
     cursor: pointer;
     background: white;
     margin-bottom: 5px; }
-    @media (max-width: 760px) {
-      .m-header-nav a {
-        padding: 5px; } }
     .m-header-nav a:hover {
       text-decoration: none;
       background: #fbcf42;
       border: 3px solid white; }
-  @media (max-width: 620px) {
+  @media (max-width: 850px) {
     .m-header-nav {
       display: -webkit-box;
       display: -ms-flexbox;
