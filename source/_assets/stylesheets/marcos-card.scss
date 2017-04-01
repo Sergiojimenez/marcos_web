@@ -242,6 +242,30 @@
   }
 }
 
+.u-small-padding {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
 
+.u-desktop-order {
+  @media screen and (min-width: 1200px) {
+      padding-top: 30px !important;
+  }
+}
+.u-img-bag {
+  height: 185px;
+  width: 120px;
+}
+
+.nomargin {
+    @media screen and (min-width: 1200px) {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+.products-img p {
+  line-height: 18px !important;
+}
 
 

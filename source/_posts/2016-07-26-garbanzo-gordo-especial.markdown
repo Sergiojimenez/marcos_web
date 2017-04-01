@@ -5,6 +5,7 @@ categories: garbanzo
 layout: default
 img: <img src='img/alubia_small_tela.png'>
 img-detail-bag: <img src='img/garbanzo_small.png'>
+img-big-bag: <img src='img/ALUBIA-5K.png'>
 coment: Aquí incluimos lo necesario
 title-coment: Garbanzos Gordo Especial
 bg-class: garbanzo_gordo_especial 
