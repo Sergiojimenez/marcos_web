@@ -248,6 +248,11 @@
 }
 
 .u-desktop-order {
+  &__sp {
+    @media screen and (min-width: 1200px) {
+      padding-top: 20px !important;
+    }
+  }
   @media screen and (min-width: 1200px) {
       padding-top: 30px !important;
   }

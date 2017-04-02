@@ -950,6 +950,9 @@ footer {
   padding-right: 10px !important; }
 
 @media screen and (min-width: 1200px) {
+  .u-desktop-order__sp {
+    padding-top: 20px !important; } }
+@media screen and (min-width: 1200px) {
   .u-desktop-order {
     padding-top: 30px !important; } }
 
