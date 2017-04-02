@@ -1253,6 +1253,22 @@ footer {
   background-size: cover;
   background-image: url("img/soja.jpg"); }
 
+.lenteja-pelada-entera {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/lenteja-pelada-entera.jpg"); }
+
+.lenteja-pelada-partida {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/lenteja-pelada-partida.jpg"); }
+
 @media (max-width: 990px) {
   .m-header {
     height: 250px; } }
