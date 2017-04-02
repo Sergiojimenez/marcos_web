@@ -1,6 +1,6 @@
 ---
 title:  "Alubia NEGRA TOLOSA"
-date:   2016-07-16 17:26:19
+date:   2016-07-11 17:26:19
 categories: alubia
 layout: default
 img: <img src='img/sm_alubias/negra_tolosa_sm.png'>

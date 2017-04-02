@@ -1,6 +1,6 @@
 ---
 title:  "Alubia ROJA REDONDA"
-date:   2016-07-20 17:26:19
+date:   2016-07-16 17:26:19
 categories: alubia
 layout: default
 img: <img src='img/sm_alubias/palmena_sm.png'>

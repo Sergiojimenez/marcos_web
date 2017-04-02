@@ -1,7 +1,7 @@
 ---
-title:  "Alubia Caparrón"
-date:   2016-07-13 17:26:19
-categories: legumbre
+title:  "Alubia CAPARRÓN LARGO"
+date:   2016-07-03 17:26:19
+categories: alubia
 layout: default
 img: <img src='img/alubia_small_tela.png'>
 img-detail-bag: <img src='img/alubia_small.png'>

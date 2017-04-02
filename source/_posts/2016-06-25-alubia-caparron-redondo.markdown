@@ -1,6 +1,6 @@
 ---
 title:  "Alubia CAPARRÓN REDONDO"
-date:   2016-07-14 17:26:19
+date:   2016-07-06 17:26:19
 categories: alubia
 layout: default
 img: <img src='img/alubia_small_tela.png'>
