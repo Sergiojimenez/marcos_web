@@ -1240,22 +1240,6 @@ footer {
   background-size: cover;
   background-image: url("img/lenteja-verdina.jpg"); }
 
-.quinoa {
-  position: relative;
-  height: 340px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-image: url("img/quinoa.jpg"); }
-
-.soja {
-  position: relative;
-  height: 340px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-image: url("img/soja.jpg"); }
-
 .lenteja-pelada-entera {
   position: relative;
   height: 340px;
@@ -1272,45 +1256,37 @@ footer {
   background-size: cover;
   background-image: url("img/lenteja-pelada-partida.jpg"); }
 
-.alubia-blanca-bio {
+.quinoa {
   position: relative;
   height: 340px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url("img/alubia-blanca-bio.jpg"); }
+  background-image: url("img/quinoa.jpg"); }
 
-.garbanzo-castellano-bio {
+.soja {
   position: relative;
   height: 340px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url("img/garbanzo-castellano-bio.jpg"); }
+  background-image: url("img/soja.jpg"); }
 
-.garbanzo-pedrosillano-bio {
+.guisante_verde_seco {
   position: relative;
   height: 340px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url("img/garbanzo-pedrosillano-bio.jpg"); }
+  background-image: url("img/guisante_verde_seco.jpg"); }
 
-.lenteja-castellana-bio {
+.guisante_verde_partido {
   position: relative;
   height: 340px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url("img/lenteja-castellana-bio.jpg"); }
-
-.lenteja-pardina-bio {
-  position: relative;
-  height: 340px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-image: url("img/lenteja-pardina-bio.jpg"); }
+  background-image: url("img/guisante_verde_partido.jpg"); }
 
 @media (max-width: 990px) {
   .m-header {
