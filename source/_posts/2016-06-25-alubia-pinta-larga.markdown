@@ -1,5 +1,5 @@
 ---
-title:  "Alubia Pinta LARGA MACHOTES"
+title:  "Alubia PINTA LARGA (Machotes)"
 date:   2016-07-18 17:26:19
 categories: alubia
 layout: default

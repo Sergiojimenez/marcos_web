@@ -3,7 +3,7 @@ title:  "Alubia RIÑÓN DE LEÓN"
 date:   2016-07-29 17:26:19
 categories: alubia
 layout: default
-img: <img src='img/alubia_small_tela.png'>
+img: <img src='img/sm_alubias/redonda_manteca_sm.png'>
 img-detail-bag: <img src='img/alubia_small.png'>
 img-big-bag: <img src='img/ALUBIA-5K.png'>
 coment: Este es el uno

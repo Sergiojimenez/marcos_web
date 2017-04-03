@@ -7,7 +7,7 @@ coment: Este es el uno
 img: <img src='img/sm_lentejas/pardina.png'>
 img-detail-bag: <img src='img/guisante_verde_bag.png'>
 title-coment: Envasado en paquetes de 1Kg
-bg-class: guisante_verde_seco 
+bg-class: guisante_verde_partido 
 title-granel: Envasado en bolsa de tela. <b>1Kg</b> <p><b>A GRANEL</b><br> Envasado en bolsa de <b>10Kg, 25Kg</b> 
 side: products-right
 ---

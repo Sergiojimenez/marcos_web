@@ -7,11 +7,11 @@ img: <img src='img/alubia_small_tela.png'>
 img-detail-bag: <img src='img/ECO.-GARBANZOS.png'>
 img-big-bag: <img src='img/ALUBIA-5K.png'>
 coment: Este es el uno
-title-coment: Envasado en paquetes. <b>1Kg y 500gr</b>
+title-coment: Envasado en paquete de <b>500gr</b>
 title-5K: <b>A GRANEL</b><br> Envasado en bolsa de <br><b>10Kg, 25Kg</b> 
 title-granel: Envasado en bolsa de tela. <b>1Kg</b> 
 bg-class: garbanzo_castellano
-side: products-right
+side: products-left
 ---
 
 Hola como estas

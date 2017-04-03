@@ -1,5 +1,5 @@
 ---
-title:  "Alubia PINTA"
+title:  "Alubia PINTA REDONDA"
 date:   2016-07-19 17:26:19
 categories: alubia
 layout: default

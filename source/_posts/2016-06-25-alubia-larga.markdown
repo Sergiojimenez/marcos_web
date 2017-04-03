@@ -1,5 +1,5 @@
 ---
-title:  "Alubia LARGA"
+title:  "Alubia CAPARRÓN LARGO"
 date:   2016-07-02 17:26:19
 categories: alubia
 layout: default
