@@ -7,9 +7,9 @@ img: <img src='img/alubia_small_tela.png'>
 img-detail-bag: <img src='img/Garbanzo-Pedrosillano.png'>
 img-big-bag: <img src='img/garbanzo_5.png'>
 coment: Aquí incluimos lo necesario
-title-5K: Envasado en paquetes. <b>5Kg</b>
+title-5K: Envasado en bolsa. <b>5Kg</b>
 title-plastico: Envasado en paquetes. <b>1Kg y 500gr</b>
-title-granel: Envasado en paquetes de tela. <b>1Kg</b> <p><b>A GRANEL</b><br> Envasado en sacos de <b>10Kg, 25Kg</b> 
+title-granel: Envasado en bolsa de tela. <b>1Kg</b> <p><b>A GRANEL</b><br> Envasado en bolsa de <b>10Kg, 25Kg</b> 
 title-coment: Garbanzos Pedrosillano
 bg-class: garbanzo_pedrosillano
 side: products-right

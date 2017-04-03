@@ -7,7 +7,7 @@ coment: Este es el uno
 img: <img src='img/soja_bolsa_tela.png'>
 img-detail-bag: <img src='img/soja_verde_bag.png'>
 title-coment: Envasado en paquetes de 1Kg
-title-granel: Envasado en paquetes de tela. <b>1Kg</b> <p><b>A GRANEL</b><br> Envasado en sacos de <b>10Kg, 25Kg</b> 
+title-granel: Envasado en bolsa de tela. <b>1Kg</b> <p><b>A GRANEL</b><br> Envasado en bolsa de <b>10Kg, 25Kg</b> 
 bg-class: soja 
 side: products-right
 ---
