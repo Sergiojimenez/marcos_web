@@ -1,5 +1,5 @@
 ---
-title:  "Garbanzo PREDOSILLANO BIO"
+title:  "Garbanzo PEDROSILLANO BIO"
 date:   2016-07-03 17:26:19
 categories: ecologicos
 layout: default
