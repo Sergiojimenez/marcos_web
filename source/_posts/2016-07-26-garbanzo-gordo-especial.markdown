@@ -10,7 +10,7 @@ coment: Aquí incluimos lo necesario
 title-coment: Envasado en paquetes. <b>1Kg y 500gr
 bg-class: garbanzo_gordo_especial 
 title-5K: Envasado en bolsa de <b>5Kg</b>
-title-plastico: Envasado en paquetes. <b>1Kg y 500gr</b>
+title-plastico: Envasado en paquetes de <b>1Kg y 500gr</b>
 title-granel: Envasado en saquito de tela de <b>1Kg</b> <p><b>A GRANEL</b><br> Envasado en sacos de <b>10Kg y 25Kg</b> 
 side: products-left
 ---

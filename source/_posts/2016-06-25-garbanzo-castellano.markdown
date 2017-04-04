@@ -9,7 +9,7 @@ img-big-bag: <img src='img/garbanzo_5.png'>
 coment: Este es el uno
 title-5K: Envasado en bolsa de <b>5Kg</b>
 title-coment: Garbanzo castellano
-title-plastico: Envasado en paquetes. <b>1Kg y 500gr</b>
+title-plastico: Envasado en paquetes de <b>1Kg y 500gr</b>
 title-granel: Envasado en saquito de tela de <b>1Kg</b> <p><b>A GRANEL</b><br> Envasado en sacos de <b>10Kg y 25Kg</b> 
 bg-class: garbanzo_castellano 
 side: products-right
