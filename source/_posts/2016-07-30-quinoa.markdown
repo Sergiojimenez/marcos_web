@@ -7,7 +7,7 @@ coment: Este es el uno
 img: <img src='img/quinoa_bolsa_tela.png'>
 img-detail-bag: <img src='img/quinoa_bag.png'>
 title-coment: Envasado en paquetes de 1Kg
-title-granel: Envasado en bolsa de tela. <b>1Kg</b> <p><b>A GRANEL</b><br> Envasado en bolsa de <b>10Kg, 25Kg</b> 
+title-granel: Envasado en saquito de tela de <b>1Kg</b> <p><b>A GRANEL</b><br> Envasado en sacos de <b>10Kg y 25Kg</b> 
 bg-class: quinoa 
 side: products-left
 ---
