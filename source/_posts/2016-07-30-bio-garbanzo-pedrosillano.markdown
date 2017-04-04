@@ -1,6 +1,6 @@
 ---
 title:  "Garbanzo PREDOSILLANO BIO"
-date:   2016-07-31 17:26:19
+date:   2016-07-03 17:26:19
 categories: ecologicos
 layout: default
 img: <img src='img/alubia_small_tela.png'>
@@ -11,7 +11,7 @@ title-coment: Envasado en paquete de <b>500gr</b>
 title-5K: <b>A GRANEL</b><br> Envasado en bolsa de <br><b>10Kg, 25Kg</b> 
 title-granel: Envasado en bolsa de tela. <b>1Kg</b> 
 bg-class: garbanzo_pedrosillano_de_salamanca
-side: products-right
+side: products-left
 ---
 
 Hola como estas

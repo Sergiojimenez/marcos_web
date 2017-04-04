@@ -1,6 +1,6 @@
 ---
 title:  "Lenteja CASTELLANA BIO"
-date:   2016-07-30 17:26:19
+date:   2016-07-04 17:26:19
 categories: ecologicos
 layout: default
 img: <img src='img/sm_lentejas/castellana.png'>
