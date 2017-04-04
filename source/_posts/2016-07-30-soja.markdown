@@ -1,6 +1,6 @@
 ---
 title:  "SOJA VERDE"
-date:   2016-07-29 17:26:19
+date:   2016-07-26 17:26:19
 categories: otrosproductos
 layout: default
 coment: Este es el uno
