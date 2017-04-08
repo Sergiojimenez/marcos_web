@@ -3,7 +3,7 @@ title:  "Alubia CAPARRÓN REDONDO"
 date:   2016-07-06 17:26:19
 categories: alubia
 layout: default
-img: <img src='img/alubia_small_tela.png'>
+img: <img src='img/alubia_pintada_tela.png'>
 img-detail-bag: <img src='img/alubia_caparron_redondo_small.png'>
 img-big-bag: <img src='img/ALUBIA-CAPARRON-5K.png'>
 coment: Este es el uno

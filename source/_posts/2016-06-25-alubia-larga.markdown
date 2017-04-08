@@ -3,7 +3,7 @@ title:  "Alubia CAPARRÓN LARGO"
 date:   2016-07-02 17:26:19
 categories: alubia
 layout: default
-img: <img src='img/alubia_small_tela.png'>
+img: <img src='img/alubia_pintada_tela.png'>
 img-detail-bag: <img src='img/alubia_larga.png'>
 img-big-bag: <img src='img/ALUBIA-LARGA-5K.png'>
 coment: Este es el uno
