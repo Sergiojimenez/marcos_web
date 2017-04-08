@@ -4,7 +4,7 @@ date:   2016-07-03 17:26:19
 categories: ecologicos
 layout: default
 img: <img src='img/alubia_small_tela.png'>
-img-detail-bag: <img src='img/ECO.-GARB.PEQUEÑOtif.png'>
+img-detail-bag: <img src='img/ECO.-GARB.PEQUENOtif.png'>
 img-big-bag: <img src='img/ALUBIA-5K.png'>
 coment: Este es el uno
 title-coment: Envasado en paquete de <b>500gr</b>
