@@ -1288,6 +1288,126 @@ footer {
   background-size: cover;
   background-image: url("img/guisante_verde_partido.jpg"); }
 
+.basmati {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/basmati.jpg"); }
+
+.bomba {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/bomba.jpg"); }
+
+.arborio {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/arborio.jpg"); }
+
+.carnaroli {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/carnaroli.jpg"); }
+
+.integral-redondo {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/integral-redondo.jpg"); }
+
+.largo-perfumado {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/largo-perfumado.jpg"); }
+
+.largo {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/largo.jpg"); }
+
+.negro-ecologico {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/negro-ecologico.jpg"); }
+
+.negro {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/negro.jpg"); }
+
+.redondo-bahia {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/redondo-bahia.jpg"); }
+
+.redondo-ecologico {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/redondo-ecologico.jpg"); }
+
+.rojo {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/rojo.jpg"); }
+
+.sushi {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/sushi.jpg"); }
+
+.tres-mezclas {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/tres-mezclas.jpg"); }
+
+.vaporizado-largo {
+  position: relative;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("img/vaporizado-largo.jpg"); }
+
 @media (max-width: 990px) {
   .m-header {
     height: 250px; } }

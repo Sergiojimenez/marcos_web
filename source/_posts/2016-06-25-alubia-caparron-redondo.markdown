@@ -1,5 +1,5 @@
 ---
-title:  "Alubia CAPARRÓN REDONDO"
+title:  "Arroz CAPARRÓN REDONDO"
 date:   2016-07-06 17:26:19
 categories: alubia
 layout: default
