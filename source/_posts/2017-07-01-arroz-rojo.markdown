@@ -3,9 +3,9 @@ title:  "Arroz ROJO"
 date:   2016-07-30 17:26:19
 categories: arroz
 layout: default
-img: <img src='img/sm_arroces/arroz_negro.png'>
-img-detail-bag: <img src='img/arroz_negro_small.png'>
-img-big-bag: <img src='img/arroz_negro_5.png'>
+img: <img src='img/sm_arroces/arroz_rojo.png'>
+img-detail-bag: <img src='img/arroz_rojo_small.png'>
+img-big-bag: <img src='img/arroz_rojo_5.png'>
 coment: Este es el uno
 title-coment: Envasado en paquetes de <b>1Kg y 500gr</b>
 title-5K: Envasado en bolsa de <b>5Kg</b>

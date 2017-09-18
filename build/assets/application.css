@@ -1458,7 +1458,7 @@ footer {
 .m-header-bags {
   position: relative;
   bottom: -110px;
-  width: 70%;
+  width: 100%;
   margin: 20px auto 50px auto; }
   .m-header-bags .bag-product-1 {
     position: relative;
