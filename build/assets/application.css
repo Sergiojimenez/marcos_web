@@ -758,6 +758,9 @@ footer {
 .center-img {
   margin-left: 15px; }
 
+.u-transparent {
+  opacity: 0.1; }
+
 .m-mar-enterprise {
   background: red;
   min-height: 300px; }
