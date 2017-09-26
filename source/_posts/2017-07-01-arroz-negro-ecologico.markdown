@@ -1,7 +1,7 @@
 ---
-title:  "Arroz NEGRO ECOLÓGICO"
-date:   2016-07-30 17:26:19
-categories: arroz
+title:  "Arroz NEGRO BIO"
+date:   2014-07-19 17:26:19
+categories: ecologicos
 layout: default
 img: <img src='img/sm_arroces/arroz_negro.png'>
 img-detail-bag: <img src='img/arroz_negro_small.png'>

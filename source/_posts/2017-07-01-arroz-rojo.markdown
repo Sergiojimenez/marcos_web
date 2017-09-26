@@ -1,6 +1,6 @@
 ---
 title:  "Arroz ROJO"
-date:   2016-07-30 17:26:19
+date:   2016-07-22 17:26:19
 categories: arroz
 layout: default
 img: <img src='img/sm_arroces/arroz_rojo.png'>

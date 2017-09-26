@@ -1,5 +1,5 @@
 ---
-title:  "Arroz CARNOLI"
+title:  "Arroz CARNAROLI"
 date:   2016-07-26 17:26:19
 categories: arroz
 layout: default

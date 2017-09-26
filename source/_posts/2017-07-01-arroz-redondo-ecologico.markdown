@@ -1,7 +1,7 @@
 ---
-title:  "Arroz REDONDO ECOLÓGICO"
-date:   2016-07-23 17:26:19
-categories: arroz
+title:  "Arroz REDONDO BIO"
+date:   2015-07-01 17:26:19
+categories: ecologicos
 layout: default
 img: <img src='img/sm_arroces/arroz_balnco.png'>
 img-detail-bag: <img src='img/arroz_blanco_small.png'>

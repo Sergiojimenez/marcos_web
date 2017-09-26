@@ -1,6 +1,6 @@
 ---
 title:  "Arroz TRES MEZCLAS"
-date:   2016-07-30 17:26:19
+date:   2016-07-23 17:26:19
 categories: arroz
 layout: default
 img: <img src='img/sm_arroces/arroz_mezcla.png'>

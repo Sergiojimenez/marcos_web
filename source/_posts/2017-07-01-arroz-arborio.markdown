@@ -1,6 +1,6 @@
 ---
-title:  "Arroz ARBRORIO"
-date:   2016-07-29 17:26:19
+title:  "Arroz ARBORIO"
+date:   2016-07-27 17:26:19
 categories: arroz
 layout: default
 img: <img src='img/sm_arroces/arroz_balnco.png'>

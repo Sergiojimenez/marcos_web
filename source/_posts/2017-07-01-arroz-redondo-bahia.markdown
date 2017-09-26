@@ -1,6 +1,6 @@
 ---
-title:  "Arroz REDONDO BAHÍA"
-date:   2016-07-19 17:26:19
+title:  "Arroz REDONDO (Bahía)"
+date:   2016-07-31 17:26:19
 categories: arroz
 layout: default
 img: <img src='img/sm_arroces/arroz_balnco.png'>

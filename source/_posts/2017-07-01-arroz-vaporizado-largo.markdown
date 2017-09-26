@@ -1,6 +1,6 @@
 ---
-title:  "Arroz VAPORIZADO LARGO"
-date:   2016-07-20 17:26:19
+title:  "Arroz LARGO VAPORIZADO"
+date:   2016-07-29 17:26:19
 categories: arroz
 layout: default
 img: <img src='img/sm_arroces/arroz_balnco.png'>

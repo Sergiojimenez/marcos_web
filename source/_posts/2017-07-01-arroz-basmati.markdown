@@ -1,6 +1,6 @@
 ---
 title:  "Arroz BASMATI"
-date:   2016-07-28 17:26:19
+date:   2016-07-24 17:26:19
 categories: arroz
 layout: default
 img: <img src='img/sm_arroces/arroz_balnco.png'>

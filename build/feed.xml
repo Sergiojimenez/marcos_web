@@ -5,56 +5,17 @@
     <description>Legumbres Marcos</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 20 Sep 2017 20:16:35 +0200</pubDate>
-    <lastBuildDate>Wed, 20 Sep 2017 20:16:35 +0200</lastBuildDate>
+    <pubDate>Tue, 26 Sep 2017 21:07:43 +0200</pubDate>
+    <lastBuildDate>Tue, 26 Sep 2017 21:07:43 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>Arroz TRES MEZCLAS</title>
+        <title>Arroz REDONDO (Bahía)</title>
         <description>&lt;p&gt;Hola como estas&lt;/p&gt;
 </description>
-        <pubDate>Sat, 30 Jul 2016 19:26:19 +0200</pubDate>
-        <link>/arroz/2016/07/30/arroz-tres-mezclas.html</link>
-        <guid isPermaLink="true">/arroz/2016/07/30/arroz-tres-mezclas.html</guid>
-        
-        
-        <category>arroz</category>
-        
-      </item>
-    
-      <item>
-        <title>Arroz ROJO</title>
-        <description>&lt;p&gt;Hola como estas&lt;/p&gt;
-</description>
-        <pubDate>Sat, 30 Jul 2016 19:26:19 +0200</pubDate>
-        <link>/arroz/2016/07/30/arroz-rojo.html</link>
-        <guid isPermaLink="true">/arroz/2016/07/30/arroz-rojo.html</guid>
-        
-        
-        <category>arroz</category>
-        
-      </item>
-    
-      <item>
-        <title>Arroz NEGRO</title>
-        <description>&lt;p&gt;Hola como estas&lt;/p&gt;
-</description>
-        <pubDate>Sat, 30 Jul 2016 19:26:19 +0200</pubDate>
-        <link>/arroz/2016/07/30/arroz-negro.html</link>
-        <guid isPermaLink="true">/arroz/2016/07/30/arroz-negro.html</guid>
-        
-        
-        <category>arroz</category>
-        
-      </item>
-    
-      <item>
-        <title>Arroz NEGRO ECOLÓGICO</title>
-        <description>&lt;p&gt;Hola como estas&lt;/p&gt;
-</description>
-        <pubDate>Sat, 30 Jul 2016 19:26:19 +0200</pubDate>
-        <link>/arroz/2016/07/30/arroz-negro-ecologico.html</link>
-        <guid isPermaLink="true">/arroz/2016/07/30/arroz-negro-ecologico.html</guid>
+        <pubDate>Sun, 31 Jul 2016 19:26:19 +0200</pubDate>
+        <link>/arroz/2016/07/31/arroz-redondo-bahia.html</link>
+        <guid isPermaLink="true">/arroz/2016/07/31/arroz-redondo-bahia.html</guid>
         
         
         <category>arroz</category>
@@ -66,21 +27,8 @@
         <description>&lt;p&gt;Hola como estas&lt;/p&gt;
 </description>
         <pubDate>Sat, 30 Jul 2016 19:26:19 +0200</pubDate>
-        <link>/arroz/2016/07/30/arroz-largo.html</link>
-        <guid isPermaLink="true">/arroz/2016/07/30/arroz-largo.html</guid>
-        
-        
-        <category>arroz</category>
-        
-      </item>
-    
-      <item>
-        <title>Arroz INTEGRAL REDONDO</title>
-        <description>&lt;p&gt;Hola como estas&lt;/p&gt;
-</description>
-        <pubDate>Sat, 30 Jul 2016 19:26:19 +0200</pubDate>
-        <link>/arroz/2016/07/30/arroz-integral-redondo.html</link>
-        <guid isPermaLink="true">/arroz/2016/07/30/arroz-integral-redondo.html</guid>
+        <link>/arroz/2016/07/30/arroz-largo-redondo.html</link>
+        <guid isPermaLink="true">/arroz/2016/07/30/arroz-largo-redondo.html</guid>
         
         
         <category>arroz</category>
@@ -126,15 +74,66 @@
       </item>
     
       <item>
-        <title>Arroz ARBRORIO</title>
+        <title>Arroz LARGO VAPORIZADO</title>
         <description>&lt;p&gt;Hola como estas&lt;/p&gt;
 </description>
         <pubDate>Fri, 29 Jul 2016 19:26:19 +0200</pubDate>
-        <link>/arroz/2016/07/29/arroz-arborio.html</link>
-        <guid isPermaLink="true">/arroz/2016/07/29/arroz-arborio.html</guid>
+        <link>/arroz/2016/07/29/arroz-vaporizado-largo.html</link>
+        <guid isPermaLink="true">/arroz/2016/07/29/arroz-vaporizado-largo.html</guid>
         
         
         <category>arroz</category>
+        
+      </item>
+    
+      <item>
+        <title>GUISANTE VERDE SECO</title>
+        <description>&lt;p&gt;Hola como estas&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 Jul 2016 19:26:19 +0200</pubDate>
+        <link>/otrosproductos/2016/07/29/guisante-verde-seco.html</link>
+        <guid isPermaLink="true">/otrosproductos/2016/07/29/guisante-verde-seco.html</guid>
+        
+        
+        <category>otrosproductos</category>
+        
+      </item>
+    
+      <item>
+        <title>Alubia RIÑÓN DE LEÓN</title>
+        <description>&lt;p&gt;Hola como esta&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 Jul 2016 19:26:19 +0200</pubDate>
+        <link>/alubia/2016/07/29/alubia-rinon-de-leon.html</link>
+        <guid isPermaLink="true">/alubia/2016/07/29/alubia-rinon-de-leon.html</guid>
+        
+        
+        <category>alubia</category>
+        
+      </item>
+    
+      <item>
+        <title>Lenteja PARDINA</title>
+        <description>Hola como estas</description>
+        <pubDate>Fri, 29 Jul 2016 19:26:19 +0200</pubDate>
+        <link>/lenteja/2016/07/29/lenteja-pardina.mdown</link>
+        <guid isPermaLink="true">/lenteja/2016/07/29/lenteja-pardina.mdown</guid>
+        
+        
+        <category>lenteja</category>
+        
+      </item>
+    
+      <item>
+        <title>Garbanzos CASTELLANO</title>
+        <description>&lt;p&gt;Hola como estas&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 Jul 2016 19:26:19 +0200</pubDate>
+        <link>/garbanzo/2016/07/29/garbanzo-castellano.html</link>
+        <guid isPermaLink="true">/garbanzo/2016/07/29/garbanzo-castellano.html</guid>
+        
+        
+        <category>garbanzo</category>
         
       </item>
     

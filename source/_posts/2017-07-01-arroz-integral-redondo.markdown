@@ -1,7 +1,7 @@
 ---
 title:  "Arroz INTEGRAL REDONDO"
-date:   2016-07-30 17:26:19
-categories: arroz
+date:   2016-07-18 17:26:19
+categories: arriz
 layout: default
 img: <img src='img/sm_arroces/arroz_balnco.png'>
 img-detail-bag: <img src='img/arroz_blanco_small.png'>

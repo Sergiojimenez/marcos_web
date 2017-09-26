@@ -1,6 +1,6 @@
 ---
-title:  "Arroz LARGO REDONDO"
-date:   2016-07-24 17:26:19
+title:  "Arroz LARGO"
+date:   2016-07-30 17:26:19
 categories: arroz
 layout: default
 img: <img src='img/sm_arroces/arroz_balnco.png'>
